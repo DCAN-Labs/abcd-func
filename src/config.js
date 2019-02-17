@@ -6,11 +6,11 @@ export default {
     // each time the app is run, it will check this manifest and update the firebase database
     // if new entries are there, they will be added, and entries that aren't in the manifest
     // but are in the firebase database will be *removed*
-  manifestUrl: 'https://raw.githubusercontent.com/DCAN-Labs/SwipesForScience/master/config/manifest.json',
+  manifestUrl: 'https://raw.githubusercontent.com/DCAN-Labs/abcd-func/master/config/manifest.json',
   manifestType: 'json',
   widgetType: 'ImageSwipe',
   widgetProperties: {
-    baseUrlTemplate: 'https://s3-us-west-2.amazonaws.com/abcd-qc-training/atlas_t1/{0}_atlas_in_t1.gif',
+    baseUrlTemplate: 'https://s3-us-west-2.amazonaws.com/abcd-braindr/abcd-func/{0}',
     delimiter: '%',
     leftSwipeLabel: 'Fail',
     rightSwipeLabel: 'Pass',
@@ -258,12 +258,12 @@ export default {
   betaMode: false,
 
   firebaseKeys: {
-    apiKey: 'AIzaSyA972opm3TYYozj7AZyO8aecV9mWx03h_k',
-    authDomain: 'abcd-braindr.firebaseapp.com',
-    databaseURL: 'https://abcd-braindr.firebaseio.com',
-    projectId: 'abcd-braindr',
-    storageBucket: 'abcd-braindr.appspot.com',
-    messagingSenderId: '599251466414',
+    apiKey: "AIzaSyATIdUCOdQD7j1JE-9jYOsxYflc1LKPvRs",
+    authDomain: "abcd-func.firebaseapp.com",
+    databaseURL: "https://abcd-func.firebaseio.com",
+    projectId: "abcd-func",
+    storageBucket: "abcd-func.appspot.com",
+    messagingSenderId: "868069283447"
   },
 
   app: {
@@ -273,8 +273,8 @@ export default {
     // Homepage configuration
     // your app's title and tagline
   home: {
-    title: 'ABCD HCP Braindr',
-    tagline: 'Quality control for T1 weighted images',
+    title: 'ABCD HCP Swipes For Science',
+    tagline: 'Quality control of ABCD Study functional image registrations',
       // background image on Homepage
     backgroundUrl: 'http://www.kurzweilai.net/images/brain-network.png',
   },
