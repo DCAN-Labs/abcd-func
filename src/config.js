@@ -258,12 +258,12 @@ export default {
   betaMode: false,
 
   firebaseKeys: {
-    apiKey: "AIzaSyATIdUCOdQD7j1JE-9jYOsxYflc1LKPvRs",
-    authDomain: "abcd-func.firebaseapp.com",
-    databaseURL: "https://abcd-func.firebaseio.com",
-    projectId: "abcd-func",
-    storageBucket: "abcd-func.appspot.com",
-    messagingSenderId: "868069283447"
+    apiKey: 'AIzaSyATIdUCOdQD7j1JE-9jYOsxYflc1LKPvRs',
+    authDomain: 'abcd-func.firebaseapp.com',
+    databaseURL: 'https://abcd-func.firebaseio.com',
+    projectId: 'abcd-func',
+    storageBucket: 'abcd-func.appspot.com',
+    messagingSenderId: '868069283447'
   },
 
   app: {
