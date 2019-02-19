@@ -2,7 +2,7 @@ export default {
 
     // if set to true, the user will be routed to /tutorial instead of /play if
     // they haven't taken a tutorial
-  needsTutorial: false,
+  needsTutorial: true,
     // each time the app is run, it will check this manifest and update the firebase database
     // if new entries are there, they will be added, and entries that aren't in the manifest
     // but are in the firebase database will be *removed*
