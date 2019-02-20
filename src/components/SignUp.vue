@@ -78,7 +78,7 @@
 <!--        <b-button type="submit" variant="primary" :disabled="true">Submit</b-button> -->
 
         <p class="mt-3">
-          Already have an account? <router-link to="/login">Log In</router-link>
+        Already have an account? <router-link to="/login">Log In</router-link>
         </p>
 
       </b-form>
