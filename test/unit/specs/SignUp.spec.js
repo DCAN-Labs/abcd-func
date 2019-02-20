@@ -25,14 +25,14 @@ describe('SignUp.vue', () => {
     expect(vm.$el.querySelector('h1').textContent).to.equal(' Sign Up ');
   });
 
-  //it('should have link to login page', () => {
-  //  const vm = new Constructor({
-  //    propsData,
-  //    router,
-  //  }).$mount();
+  // it('should have link to login page', () => {
+  //   const vm = new Constructor({
+  //     propsData,
+  //     router,
+  //   }).$mount();
 
-  //  expect(vm.$el.querySelector('p').textContent).to.equal('\n        Already have an account? Log In');
-  //});
+  //   expect(vm.$el.querySelector('p').textContent).to.equal('\n        Already have an account? Log In');
+  // });
 
   it('should have correct form', () => {
     const vm = new Constructor({
