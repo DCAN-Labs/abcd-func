@@ -31,7 +31,8 @@ describe('SignUp.vue', () => {
   //     router,
   //   }).$mount();
 
-  //   expect(vm.$el.querySelector('p').textContent).to.equal('\n        Already have an account? Log In');
+  //   expect(vm.$el.querySelector('p').textContent).to.equal/
+  //  ('\n        Already have an account? Log In');
   // });
 
   it('should have correct form', () => {
