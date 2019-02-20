@@ -263,7 +263,7 @@ export default {
     databaseURL: 'https://abcd-func.firebaseio.com',
     projectId: 'abcd-func',
     storageBucket: 'abcd-func.appspot.com',
-    messagingSenderId: '868069283447'
+    messagingSenderId: '868069283447',
   },
 
   app: {
