@@ -57,26 +57,26 @@ describe('SignUp.vue', () => {
     expect(vm.$el.getElementsByTagName('button')[3].disabled).to.equal(true);
   });
 
-  it('should have submit button clickable if form is validated', async () => {
-    const vm = new Constructor({
-      propsData,
-      router,
-    }).$mount();
+  // it('should have submit button clickable if form is validated', async () => {
+  //   const vm = new Constructor({
+  //    propsData,
+  //     router,
+  //   }).$mount();
 
-    vm.form = {
-      consented: true,
-      username: 'john',
-      password: '12345678',
-      password2: '12345678',
-    };
-    await vm.$nextTick();
-    const button = vm.$el.getElementsByTagName('button')[2];
-    expect(button.disabled).to.equal(false);
+  //   vm.form = {
+  //     consented: true,
+  //     username: 'john',
+  //     password: '12345678',
+  //     password2: '12345678',
+  //   };
+  //   await vm.$nextTick();
+  //   const button = vm.$el.getElementsByTagName('button')[2];
+  //   expect(button.disabled).to.equal(false);
 
-    const clickEvent = new window.Event('click');
-    button.dispatchEvent(clickEvent);
+  //   const clickEvent = new window.Event('click');
+  //   button.dispatchEvent(clickEvent);
 
-    /* eslint-disable no-underscore-dangle */
-    vm._watcher.run();
-  });
+  //   /* eslint-disable no-underscore-dangle */
+  //   vm._watcher.run();
+  // });
 });
