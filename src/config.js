@@ -10,7 +10,7 @@ export default {
   manifestType: 'json',
   widgetType: 'ImageSwipe',
   widgetProperties: {
-    baseUrlTemplate: 'https://s3-us-west-2.amazonaws.com/abcd-braindr/abcd-func/{0}',
+    baseUrlTemplate: 'https://s3-us-west-2.amazonaws.com/abcd-braindr/abcd-func/{0}.gif',
     delimiter: '%',
     leftSwipeLabel: 'Fail',
     rightSwipeLabel: 'Pass',
