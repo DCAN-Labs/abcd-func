@@ -355,24 +355,49 @@ export default {
           text: 'Signal inhomogeneity occurs when the participant is not positioned properly in the scanner causing their brain activity signal to be skewed',
           image: 'https://raw.githubusercontent.com/DCAN-Labs/abcd-func/master/config/tutorial_imgs/inhomogeneity.JPG',
         },
+        {
+            // use \n to linebreak the text
+          text: 'Ignore warped brain shapes when assessing the quality of the functional registration. Warped brains are due to poor registration of the T1 to the MNI atlas and is not a problem with the functional scan. Warped brains will be quality checked in the t1 registration braindr.',
+          image: 'https://raw.githubusercontent.com/DCAN-Labs/abcd-func/master/config/tutorial_imgs/ignorewarp.JPG',
+        },
+        {
+            // use \n to linebreak the text
+          text: 'Below are examples of good and bad quality functional scans:',
+          image: 'https://raw.githubusercontent.com/DCAN-Labs/abcd-func/master/config/tutorial_imgs/example1.JPG',
+        },
+        {
+            // use \n to linebreak the text
+          text: '',
+          image: 'https://raw.githubusercontent.com/DCAN-Labs/abcd-func/master/config/tutorial_imgs/example2.JPG',
+        },
+        {
+            // use \n to linebreak the text
+          text: '',
+          image: 'https://raw.githubusercontent.com/DCAN-Labs/abcd-func/master/config/tutorial_imgs/example3.JPG',
+        },
+        {
+            // use \n to linebreak the text
+          text: '',
+          image: 'https://raw.githubusercontent.com/DCAN-Labs/abcd-func/master/config/tutorial_imgs/example4.JPG',
+        },
       ],
       examples: [
         {
             // fill these with examples with respect to the widget you're using
           text: 'swipe right when the image is good quality',
-          pointer: 'sub-NDARYX806FL1__cor_184',
+          pointer: 'NDARINV04R9REGF_baselineYear1Arm1_task-rest01_in_t1',
           answer: 1,
           tutorialStep: 0,
         },
         {
           text: 'swipe left when its bad',
-          pointer: 'sub-NDAREG590BNY__sag_201',
+          pointer: 'old_NDARINVUXMACPNB_baselineYear1Arm1_rfMRI_REST1_in_t1_copy1',
           answer: 0,
           tutorialStep: 1,
         },
         {
           text: `if you're not sure, click 'help' \n to discuss with scientists ${''}`,
-          pointer: 'sub-NDAREW671HZW__ax_86',
+          pointer: 'NDARINV01NAYMZH_baselineYear1Arm1_task-rest01_in_t1',
           answer: 0,
           tutorialStep: 2,
         },
