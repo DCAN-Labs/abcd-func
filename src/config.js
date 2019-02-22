@@ -312,13 +312,28 @@ export default {
         },
         {
             // use \n to linebreak the text
-          text: 'The fMRI image is much more blurry than the T1 image and is more difficult to see the white matter and gyrus and sulcus of the gray matter. Therefore, in the ABCD study we use the clearer image of the T1 and align the blurrier fMRI image to it. This allows us to map the brain activity from the fMRI image to the precise region defined in the T1 image.',
+          text: 'The fMRI image is much more blurry than the T1 image and is more difficult to see the white matter and gyrus and sulcus of the gray matter. Therefore, in the ABCD study we use the clearer image of the T1 and align the blurrier fMRI image to it. This allows us to map the brain activity from the fMRI image to the precise regions defined in the T1 image.',
           image: 'https://raw.githubusercontent.com/DCAN-Labs/abcd-func/master/config/tutorial_imgs/fMRIalignsT1.JPG',
         },
         {
             // use \n to linebreak the text
           text: 'There are 2 types of images to asses the quality of the fMRI to the T1. These images are the T1 and the fMRI overlaid onto each other.',
           image: 'https://raw.githubusercontent.com/DCAN-Labs/abcd-func/master/config/tutorial_imgs/sidebysiderest_testwidth.JPG',
+        },
+        {
+            // use \n to linebreak the text
+          text: 'The quality of the functional registration depends on how well the fMRI image and T1 align. Common functional registration errors include: field of view cut off, signal dropout, movement artifacts, and signal inhomogeneity.',
+          image: 'https://raw.githubusercontent.com/DCAN-Labs/abcd-func/master/config/tutorial_imgs/alignexample.JPG',
+        },
+        {
+            // use \n to linebreak the text
+          text: 'Field of view cut-off - occurs when the participant’s head is not fully in the scanner and either the bottom or top of the brain is cut off',
+          image: 'https://raw.githubusercontent.com/DCAN-Labs/abcd-func/master/config/tutorial_imgs/failwithtexttest.JPG',
+        },
+        {
+            // use \n to linebreak the text
+          text: 'Not all field of view cut-off errors are bad quality, it is to what extent the brain is cut off.',
+          image: 'https://raw.githubusercontent.com/DCAN-Labs/abcd-func/master/config/tutorial_imgs/passwithtexttest.JPG',
         },
       ],
       examples: [
