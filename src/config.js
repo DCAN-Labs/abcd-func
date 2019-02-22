@@ -327,13 +327,33 @@ export default {
         },
         {
             // use \n to linebreak the text
-          text: 'Field of view cut-off - occurs when the participant’s head is not fully in the scanner and either the bottom or top of the brain is cut off',
+          text: 'Field of view cut-off occurs when the participant’s head is not fully in the scanner and either the bottom or top of the brain is cut off',
           image: 'https://raw.githubusercontent.com/DCAN-Labs/abcd-func/master/config/tutorial_imgs/failwithtexttest.JPG',
         },
         {
             // use \n to linebreak the text
           text: 'Not all field of view cut-off errors are bad quality, it is to what extent the brain is cut off.',
           image: 'https://raw.githubusercontent.com/DCAN-Labs/abcd-func/master/config/tutorial_imgs/passwithtexttest.JPG',
+        },
+        {
+            // use \n to linebreak the text
+          text: 'Signal dropout occurs when the scanner does not record brain activity properly',
+          image: 'https://raw.githubusercontent.com/DCAN-Labs/abcd-func/master/config/tutorial_imgs/signalfail.JPG',
+        },
+        {
+            // use \n to linebreak the text
+          text: 'Not all signal dropout errors are bad quality, it is too what extent the signal is not recorded',
+          image: 'https://raw.githubusercontent.com/DCAN-Labs/abcd-func/master/config/tutorial_imgs/passsignal.JPG',
+        },
+        {
+            // use \n to linebreak the text
+          text: 'Movement artifacts occur when the participant is moving too much during the fMRI scan',
+          image: 'https://raw.githubusercontent.com/DCAN-Labs/abcd-func/master/config/tutorial_imgs/movementstacked.JPG',
+        },
+        {
+            // use \n to linebreak the text
+          text: 'Signal inhomogeneity occurs when the participant is not positioned properly in the scanner causing their brain activity signal to be skewed',
+          image: 'https://raw.githubusercontent.com/DCAN-Labs/abcd-func/master/config/tutorial_imgs/inhomogeneity.JPG',
         },
       ],
       examples: [
