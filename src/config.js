@@ -307,13 +307,18 @@ export default {
       intro: [
         {
             // keep the text really short
-          text: 'here is an example tutorial step',
-          image: 'https://upload.wikimedia.org/wikipedia/commons/8/8b/Humpback_whales_in_singing_position.jpg',
+          text: 'Functional MRI (fMRI) is used to measure brain activity over time whereas structural MRI (like a T1) is used to measure brain shape at one point in time',
+          image: 'https://raw.githubusercontent.com/DCAN-Labs/abcd-func/master/config/tutorial_imgs/2sidebyside.JPG',
         },
         {
             // use \n to linebreak the text
-          text: 'here is another one.',
-          image: 'https://upload.wikimedia.org/wikipedia/commons/d/dd/Hydrophone_being_lowered_into_the_Atlantic.jpg',
+          text: 'The fMRI image is much more blurry than the T1 image and is more difficult to see the white matter and gyrus and sulcus of the gray matter. Therefore, in the ABCD study we use the clearer image of the T1 and align the blurrier fMRI image to it. This allows us to map the brain activity from the fMRI image to the precise region defined in the T1 image.',
+          image: 'https://raw.githubusercontent.com/DCAN-Labs/abcd-func/master/config/tutorial_imgs/fMRIalignsT1.JPG',
+        },
+        {
+            // use \n to linebreak the text
+          text: 'There are 2 types of images to asses the quality of the fMRI to the T1. These images are the T1 and the fMRI overlaid onto each other.',
+          image: 'https://raw.githubusercontent.com/DCAN-Labs/abcd-func/master/config/tutorial_imgs/sidebysiderest_testwidth.JPG',
         },
       ],
       examples: [
