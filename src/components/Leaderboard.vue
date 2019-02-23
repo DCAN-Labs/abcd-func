@@ -1,7 +1,7 @@
 <template name="leaderboard">
   <div class="container" id="leaderboard">
     <h1>Leaderboard</h1>
-    <b-table striped hover text-white :items="allUsersList" :fields="fields"
+    <b-table striped hover dark :items="allUsersList" :fields="fields"
     :sort-desc.sync="sortDesc" :sortBy.sync="sortBy">
     <template slot="rank" slot-scope="data">
       {{data.index + 1}}
