@@ -307,62 +307,62 @@ export default {
       intro: [
         {
             // keep the text really short
-          text: 'Functional MRI (fMRI) is used to measure brain activity over time whereas structural MRI (i.e T1) is used to measure brain shape at one point in time',
+          text: 'Functional MRI (fMRI) is used to measure brain activity over time whereas \nstructural MRI (e.g. T1-weighted imaging) is used to measure brain structure at one point in time.',
           image: 'https://raw.githubusercontent.com/DCAN-Labs/abcd-func/master/config/tutorial_imgs/2sidebyside.JPG',
         },
         {
             // use \n to linebreak the text
-          text: 'The fMRI image is much more blurry than the T1 image and is more difficult to define the white and gray matter.\nTherefore, the ABCD Study aligns blurry fMRI image to the clear T1 image.\nThis allows us to map the brain activity from the fMRI image to the precise regions defined in the T1 image.',
+          text: 'The fMRI image is much more blurry than the T1-weighted image (T1) and \nis more difficult to define the white and gray matter. \nSo image processing aligns the blurry fMRI image to the clearer T1. \nThis allows us to map the brain activity from the fMRI image to the precise regions defined in the T1.',
           image: 'https://raw.githubusercontent.com/DCAN-Labs/abcd-func/master/config/tutorial_imgs/fMRIalignsT1.JPG',
         },
         {
             // use \n to linebreak the text
-          text: 'There are 2 types of images to asses the quality of the fMRI registration to the T1. These images are the T1 and the fMRI overlaid onto each other.',
+          text: 'There are two types of images to assess the quality of the fMRI registration to the T1. \nThese images are the T1 and the fMRI overlaid onto each other.',
           image: 'https://raw.githubusercontent.com/DCAN-Labs/abcd-func/master/config/tutorial_imgs/sidebysiderest_testwidth.JPG',
         },
         {
             // use \n to linebreak the text
-          text: 'The quality of the functional registration depends on how well the fMRI image and T1 align. Common functional registration errors include: field of view cut off, signal dropout, movement artifacts, and signal inhomogeneity.',
+          text: 'The quality of the fMRI registration depends on how well the fMRI image and T1 align. \nCommon functional registration errors include: \nfield of view cut off, signal dropout, movement artifacts, and signal inhomogeneity.',
           image: 'https://raw.githubusercontent.com/DCAN-Labs/abcd-func/master/config/tutorial_imgs/alignexample.JPG',
         },
         {
             // use \n to linebreak the text
-          text: 'Field of view cut-off occurs when the participant’s head is not fully in the scanner and either the bottom or top of the brain is cut off',
+          text: 'Field of view cut-off occurs when the participant’s head is not fully in the image filed of view and \neither the bottom or top of the brain appears cut off.',
           image: 'https://raw.githubusercontent.com/DCAN-Labs/abcd-func/master/config/tutorial_imgs/failwithtexttest.JPG',
         },
         {
             // use \n to linebreak the text
-          text: 'Not all field of view cut-off errors imply bad quality, it is to what extent the brain is cut off.',
+          text: 'Not all field of view cut-off errors imply bad quality, \nit is more important to what extent the brain is cut off.',
           image: 'https://raw.githubusercontent.com/DCAN-Labs/abcd-func/master/config/tutorial_imgs/passwithtexttest.JPG',
         },
         {
             // use \n to linebreak the text
-          text: 'Signal dropout occurs when the scanner does not record brain activity properly',
+          text: 'Signal dropout occurs where the scanner cannot acquire data, \nlike air in the sinuses or ears.',
           image: 'https://raw.githubusercontent.com/DCAN-Labs/abcd-func/master/config/tutorial_imgs/signalfail.JPG',
         },
         {
             // use \n to linebreak the text
-          text: 'Not all signal dropout errors imply bad quality, it is to what extent the signal is not recorded',
+          text: 'Not all signal dropout errors imply bad quality, \nit is more important to what extent the signal is not recorded.',
           image: 'https://raw.githubusercontent.com/DCAN-Labs/abcd-func/master/config/tutorial_imgs/passsignal.JPG',
         },
         {
             // use \n to linebreak the text
-          text: 'Movement artifacts occur when the participant is moving too much during the fMRI scan',
+          text: 'Movement artifacts occur when the participant is moving too much during the fMRI scan.',
           image: 'https://raw.githubusercontent.com/DCAN-Labs/abcd-func/master/config/tutorial_imgs/movementpngtest.PNG',
         },
         {
             // use \n to linebreak the text
-          text: 'Signal inhomogeneity occurs when the participant is not positioned properly in the scanner causing their brain activity signal to be skewed towards one side of the brain',
+          text: 'Signal inhomogeneity occurs when the participant is not positioned properly in the scanner \ncausing their fMRI signal to be skewed toward one side of the brain.',
           image: 'https://raw.githubusercontent.com/DCAN-Labs/abcd-func/master/config/tutorial_imgs/inhomohorz.JPG',
         },
         {
             // use \n to linebreak the text
-          text: 'Ignore warped brain shapes when assessing the quality of the functional registration. \n Warped brains are due to poor registration of the T1 to the MNI atlas and is not a problem with the functional scan. \n Warped brains will be quality checked in the t1 registration app',
+          text: 'Ignore warped brain shapes when assessing the quality of the functional registration. \nWarped brains are due to poor registration of the T1 to the MNI atlas and are not a problem with the functional scan. \nWarped brains will be quality checked in the ABCD Anatomical Swipes For Science app.',
           image: 'https://raw.githubusercontent.com/DCAN-Labs/abcd-func/master/config/tutorial_imgs/ignorewarp.JPG',
         },
         {
             // use \n to linebreak the text
-          text: 'Below are examples of good and bad quality functional scans:',
+          text: 'Below are examples of good and bad quality fMRI scans:',
           image: 'https://raw.githubusercontent.com/DCAN-Labs/abcd-func/master/config/tutorial_imgs/example1.JPG',
         },
         {
@@ -384,19 +384,19 @@ export default {
       examples: [
         {
             // fill these with examples with respect to the widget you're using
-          text: 'swipe right when the image is good quality',
+          text: 'Swipe right when the image is good quality',
           pointer: 'NDARINV04R9REGF_baselineYear1Arm1_task-rest01_in_t1',
           answer: 1,
           tutorialStep: 0,
         },
         {
-          text: 'swipe left when its bad',
+          text: `Swipe left when it's bad`,
           pointer: 'old_NDARINVUXMACPNB_baselineYear1Arm1_rfMRI_REST1_in_t1_copy1',
           answer: 0,
           tutorialStep: 1,
         },
         {
-          text: `if you're not sure, click 'help' \n to discuss with scientists ${''}`,
+          text: `If you're not sure, click 'help' \nto discuss with scientists ${''}`,
           pointer: 'NDARINV01NAYMZH_baselineYear1Arm1_task-rest01_in_t1',
           answer: 0,
           tutorialStep: 2,
