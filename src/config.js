@@ -327,7 +327,7 @@ export default {
         },
         {
             // use \n to linebreak the text
-          text: 'Field of view cut-off occurs when the participant’s head is not fully in the image filed of view and \neither the bottom or top of the brain appears cut off.',
+          text: 'Field of view cut-off occurs when the participant’s head is not fully in the image field of view and \neither the bottom or top of the brain appears cut off.',
           image: 'https://raw.githubusercontent.com/DCAN-Labs/abcd-func/master/config/tutorial_imgs/failwithtexttest.JPG',
         },
         {
@@ -337,7 +337,7 @@ export default {
         },
         {
             // use \n to linebreak the text
-          text: 'Signal dropout occurs where the scanner cannot acquire data, \nlike air in the sinuses or ears.',
+          text: 'Signal dropout occurs where the scanner cannot acquire data during a scan. \nThere are many reasons this can occur.',
           image: 'https://raw.githubusercontent.com/DCAN-Labs/abcd-func/master/config/tutorial_imgs/signalfail.JPG',
         },
         {
