@@ -276,7 +276,7 @@ export default {
     title: 'ABCD Functional Swipes For Science',
     tagline: 'Quality control of ABCD Study functional image registrations',
       // background image on Homepage
-    backgroundUrl: 'http://www.kurzweilai.net/images/brain-network.png',
+    backgroundUrl: 'https://raw.githubusercontent.com/DCAN-Labs/abcd-func/master/config/homepage.png',
   },
 
     // Play configuration
@@ -348,7 +348,7 @@ export default {
         {
             // use \n to linebreak the text
           text: 'Movement artifacts occur when the participant is moving too much during the fMRI scan',
-          image: 'https://raw.githubusercontent.com/DCAN-Labs/abcd-func/master/config/tutorial_imgs/movementhorz.JPG',
+          image: 'https://raw.githubusercontent.com/DCAN-Labs/abcd-func/master/config/tutorial_imgs/movementpngtest.PNG',
         },
         {
             // use \n to linebreak the text
