@@ -312,7 +312,7 @@ export default {
         },
         {
             // use \n to linebreak the text
-          text: 'The fMRI image is much more blurry than the T1 image and is more difficult to define the white and gray matter. \n Therefore, the ABCD Study ALIGNS THE blurry fMRI image to the clear T1 image. \n This allows us to map the brain activity from the fMRI image to the precise regions defined in the T1 image.',
+          text: 'The fMRI image is much more blurry than the T1 image and is more difficult to define the white and gray matter.\nTherefore, the ABCD Study aligns blurry fMRI image to the clear T1 image.\nThis allows us to map the brain activity from the fMRI image to the precise regions defined in the T1 image.',
           image: 'https://raw.githubusercontent.com/DCAN-Labs/abcd-func/master/config/tutorial_imgs/fMRIalignsT1.JPG',
         },
         {
