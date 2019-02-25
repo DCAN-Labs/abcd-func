@@ -322,7 +322,7 @@ export default {
         },
         {
             // use \n to linebreak the text
-          text: 'The quality of the fMRI registration depends on how well the fMRI image and T1 align. \nCommon functional registration errors include: \nfield of view cut off, signal dropout, movement artifacts, and signal inhomogeneity.',
+          text: 'The quality of the fMRI registration depends on how well the fMRI image and T1 align. \nCommon functional registration errors include: \nfield of view cut off and signal dropout.',
           image: 'https://raw.githubusercontent.com/DCAN-Labs/abcd-func/master/config/tutorial_imgs/alignexample.JPG',
         },
         {
@@ -347,13 +347,8 @@ export default {
         },
         {
             // use \n to linebreak the text
-          text: 'Movement artifacts occur when the participant is moving too much during the fMRI scan.',
-          image: 'https://raw.githubusercontent.com/DCAN-Labs/abcd-func/master/config/tutorial_imgs/movementpngtest.PNG',
-        },
-        {
-            // use \n to linebreak the text
-          text: 'Signal inhomogeneity occurs when the participant is not positioned properly in the scanner \ncausing their fMRI signal to be skewed toward one side of the brain.',
-          image: 'https://raw.githubusercontent.com/DCAN-Labs/abcd-func/master/config/tutorial_imgs/inhomohorz.JPG',
+          text: 'Ignore movement artifacts and warped brain shapes when assessing the quality of the functional registration. \nMovement artifacts occur when the participant is moving too much during the fMRI scan but still is a PASS if the T1 and fMRI align well.',
+          image: 'https://raw.githubusercontent.com/DCAN-Labs/abcd-func/master/config/tutorial_imgs/movementpass.JPG',
         },
         {
             // use \n to linebreak the text
