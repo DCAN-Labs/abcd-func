@@ -375,6 +375,11 @@ export default {
           text: '',
           image: 'https://raw.githubusercontent.com/DCAN-Labs/abcd-func/master/config/tutorial_imgs/example4.JPG',
         },
+        {
+            // use \n to linebreak the text
+          text: 'If the image has no red overlay, click the HELP button and type "no overlay". This is a problem with how the overlaid image was created, not the functional registration.',
+          image: 'https://raw.githubusercontent.com/DCAN-Labs/abcd-func/master/config/tutorial_imgs/blank_help_arrow.JPG',
+        },
       ],
       examples: [
         {
