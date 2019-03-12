@@ -1,6 +1,6 @@
 <template name="terms">
   <div id="terms">
-    Input your terms and conditions (e.g. a consent form) here.
+    The data within this application is a part of the ABCD study. Approved users agree that they have a valid ABCD Data Use Agreement both at their site and for their person. Data within this app should not be used outside of the scope of the ABCD DUA.
   </div>
 </template>
 <style>
